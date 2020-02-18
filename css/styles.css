@@ -1,0 +1,399 @@
+/*
+Author: Jacob Norwood
+Author URI: http://jacobnorwood.com/
+Description: CSS for Jacob Norwood Portfolio 2019
+Version: 1
+
+*/
+/* -*-*--*-*-*--*- Mobile First Start -*-*-*-*--*-*--*- */
+/* line 11, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+body,
+html {
+  height: 100%;
+  margin: 0; }
+
+/* line 17, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+ul,
+ul li,
+ul ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+/* line 27, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  /*    background-color: skyblue;*/
+  text-align: center; }
+
+/* -*-*--*- Typography Global  -*-*-*-*- */
+/* line 56, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-first {
+  margin-top: 50px; }
+
+/* line 60, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-macys-refresh {
+  color: white; }
+
+/* line 64, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-lucchese {
+  color: white; }
+
+/* line 68, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-redbird h1 h2 {
+  color: #8b1a1d; }
+
+/* line 102, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+#nav-container {
+  background-color: #c9c9c9;
+  color: #666;
+  position: fixed;
+  top: 0;
+  font-family: "Quattrocento", serif;
+  font-size: 18px;
+  width: 100%;
+  padding: 2% 5%; }
+
+/*https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp*/
+/* line 114, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+#main-nav {
+  text-align: right; }
+
+/* line 118, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+#main-nav a {
+  color: #666;
+  padding-left: 5px;
+  float: right; }
+
+/* -*-*--*-*-*--*- Mobile First Screens 767px and Less START -*-*-*--*-*--*- */
+/* line 129, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-area {
+  margin: 0px 30px 0 30px; }
+
+/* line 133, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-redbird {
+  background-image: url(/images/redbird-mobile-bg.png);
+  background-position: top right;
+  height: 100%vh;
+  width: 100%vw; }
+
+/* line 140, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-macys-refresh {
+  background-image: url(/images/macys-refresh-mobile-bg.png);
+  background-position: top right;
+  height: 100%vh;
+  width: 100%vw;
+  padding-top: 20px; }
+
+/* line 148, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.project-lucchese {
+  background-image: url(/images/luccehese-mobile-bg.png);
+  background-position: top right;
+  height: 100%vh;
+  width: 100%vw;
+  padding-top: 20px; }
+
+/* -*-*--*-*-*-*- Grids -*-*-*-*-*-*-*- */
+/* line 157, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 10px;
+  grid-auto-rows: minmax(10px, auto); }
+
+/* line 164, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-1 {
+  grid-column: 1 / 7;
+  grid-row: 1; }
+
+/* line 169, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-2 {
+  grid-column: 5 / 13;
+  grid-row: 1; }
+
+/* line 174, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-3 {
+  grid-column: 1 / 13;
+  grid-row: 3; }
+
+/* line 179, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-4 {
+  grid-column: 1 / 13;
+  grid-row: 4; }
+
+/* line 184, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-5 {
+  grid-column: 1 / 13;
+  grid-row: 5; }
+
+/* line 189, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-6 {
+  grid-column: 1 / 13;
+  grid-row: 6; }
+
+/* line 194, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.grid-7 {
+  margin-top: 10px;
+  grid-column: 1 / 13;
+  grid-row: 7; }
+
+/* -*-*--*- Mobile Typography   -*-*-*-*- */
+/* line 202, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+h1 {
+  font-family: "Quattrocento", serif;
+  font-size: 36x;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center; }
+
+/* line 210, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+h2 {
+  font-family: "Quattrocento", serif;
+  font-size: 26px;
+  text-align: center; }
+
+/* line 217, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+p {
+  color: #111111;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center; }
+
+/* line 224, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.logo {
+  font-family: "Quattrocento", serif;
+  font-size: 18px;
+  color: #666; }
+
+/* -*-*--*- Frame Grid Start -*-*-*-*- */
+/* line 232, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.frame-container {
+  display: grid;
+  place-items: center; }
+
+/* line 237, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+.frames {
+  margin-bottom: 20px; }
+
+/*  Footer Mobile  */
+/* line 242, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+footer {
+  background-color: #d3d3d3;
+  font-size: 12px; }
+
+/* -*-*--*-*-*--*- Mobile First Screens 767px and Less END -*-*-*--*-*--*- */
+/* -*-*--*-*-*--*- Tablet Second Screens 768px and Above START -*-*-*--*-*--*- */
+/*Tablet Screens 768px and Above*/
+@media only screen and (min-width: 768px) {
+  /* line 255, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  body {
+    margin: 0;
+    padding: 0; }
+  /* line 260, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    grid-auto-rows: minmax(20px, auto);
+    height: 100vh; }
+  /* line 268, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  #nav-container {
+    margin: 20px; }
+  /* line 272, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .header-area {
+    margin: 20px 50px 20px 50px; }
+  /* line 276, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .project-redbird {
+    background-image: url(/images/redbird-mobile-bg.png);
+    background-position: top right;
+    height: 100%vh;
+    width: 100%vw; }
+  /* line 283, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .project-macys-refresh {
+    background-image: url(/images/macys-refresh-mobile-bg.png);
+    background-position: top right;
+    height: 100%vh;
+    width: 100%vw;
+    padding-top: 20px; }
+  /* line 291, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .project-lucchese {
+    background-image: url(/images/luccehese-mobile-bg.png);
+    background-position: top right;
+    height: 100%vh;
+    width: 100%vw;
+    padding-top: 20px; }
+  /* line 299, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .project-area {
+    margin: 0px 50px 0 50px; }
+  /* line 303, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-1 {
+    grid-column: 1 / 7;
+    grid-row: 1; }
+  /* line 308, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-2 {
+    grid-column: 5 / 13;
+    grid-row: 1; }
+  /* line 313, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-3 {
+    grid-column: 1 / 13;
+    grid-row: 3;
+    margin-top: -10px; }
+  /* line 319, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-4 {
+    grid-column: 1 / 7;
+    grid-row: 4; }
+  /* line 324, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-5 {
+    grid-column: 6 / 13;
+    grid-row: 4; }
+  /* line 329, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-6 {
+    grid-column: 1 / 13;
+    grid-row: 5; }
+  /* line 334, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-7 {
+    margin-top: 10px;
+    grid-column: 1 / 13;
+    grid-row: 6; }
+  /* -*-*--*- Grids -*-*-*-*- */
+  /* -*-*--*- Mobile Typography   -*-*-*-*- */
+  /* line 344, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  h1 {
+    font-family: "Quattrocento", serif;
+    font-size: 36px;
+    margin-bottom: 0rem; }
+  /* line 350, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  h2 {
+    font-family: "Quattrocento", serif;
+    font-size: 26px;
+    margin-bottom: 0.5rem; }
+  /* line 356, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  p {
+    font-size: 14px;
+    line-height: 1.2; }
+  /* line 361, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .logo {
+    font-family: "Quattrocento", serif;
+    font-size: 32px;
+    color: #666; }
+  /* line 367, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .main-nav {
+    text-align: right; }
+  /* line 371, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .main-nav a {
+    font-family: "Quattrocento", serif;
+    font-size: 32px;
+    color: #666;
+    padding-left: 15px; }
+  /* line 378, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .menu {
+    float: right; }
+  /* -*-*--*- Frame Grid Start -*-*-*-*- */
+  /* line 384, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    grid-auto-rows: minmax(20px, auto);
+    place-items: center; }
+  /* line 392, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frames {
+    margin-bottom: 20px; }
+  /* line 396, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-1 {
+    grid-column: 1 / 7;
+    grid-row: 1; }
+  /* line 401, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-2 {
+    grid-column: 7 / 13;
+    grid-row: 1; }
+  /* line 406, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-3 {
+    grid-column: 1 / 7;
+    grid-row: 2;
+    margin-top: -10px; }
+  /* line 412, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-4 {
+    grid-column: 7 / 13;
+    grid-row: 2; }
+  /*  Footer Mobile  */
+  /* line 418, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  footer {
+    background-color: #d3d3d3;
+    font-size: 12px; } }
+
+/* -*-*--*-*-*--*- Tablet Screens 768px and Above END -*-*-*--*-*--*- */
+/* -*-*--*-*-*--*- Tablet Large Screens 1024px and Above START -*-*-*--*-*--*- */
+/*Tablet Large Screens 1024px and Above*/
+@media only screen and (min-width: 1024px) {
+  /* line 430, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .header-area {
+    margin: 20px 50px 20px 50px; }
+  /* line 434, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .project-area {
+    margin: 0px 75px 0 75px; }
+  /* line 438, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-1 {
+    grid-column: 1 / 7;
+    grid-row: 1; }
+  /* line 443, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-2 {
+    grid-column: 5 / 13;
+    grid-row: 1; }
+  /* line 448, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-3 {
+    grid-column: 1 / 13;
+    grid-row: 2;
+    margin-top: -10px; }
+  /* line 454, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-4 {
+    grid-column: 1 / 6;
+    grid-row: 3; }
+  /* line 459, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-5 {
+    grid-column: 5 /10;
+    grid-row: 3; }
+  /* line 464, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-6 {
+    grid-column: 9 / 13;
+    grid-row: 3; }
+  /* line 469, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .grid-7 {
+    margin-top: 10px;
+    grid-column: 1 / 13;
+    grid-row: 4; }
+  /* -*-*--*- Frame Grid Start -*-*-*-*- */
+  /* line 477, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    grid-auto-rows: minmax(20px, auto);
+    place-items: center; }
+  /* line 486, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frames {
+    img: 100%; }
+  /* line 490, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-1 {
+    grid-column: 1 / 4;
+    grid-row: 1; }
+  /* line 495, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-2 {
+    grid-column: 4 / 7;
+    grid-row: 1; }
+  /* line 500, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-3 {
+    grid-column: 7 / 10;
+    grid-row: 1; }
+  /* line 505, /Users/jacob/Google Drive/Jacob Norwood Design/JND Promotion/JND App/JND App Design 2020/Dev/css/styles.scss */
+  .frame-4 {
+    grid-column: 10 / 13;
+    grid-row: 1; } }
+
+/* -*-*--*-*-*--*- Tablet Large Screens 1024px and Above END -*-*-*--*-*--*- */
+
+/*# sourceMappingURL=styles.css.map */
