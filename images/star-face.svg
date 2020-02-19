@@ -1,0 +1,29 @@
+<svg id="star-face.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="495.656" height="500" viewBox="0 0 495.656 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5ff34;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #444;
+      }
+    </style>
+    <filter id="filter" x="190.344" y="936" width="495.656" height="500" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="star" class="cls-1" d="M464.049,940.687l26.234,186.873,185.373,32.56-169.183,83.06L532.7,1430.12,401.91,1294.54,232.745,1377.5,321.1,1210.62l-130.76-135.73,185.374,32.55Z" transform="translate(-190.344 -936)"/>
+  <circle id="eye" class="cls-2" cx="207.64" cy="215.92" r="20.078"/>
+  <path id="eye-2" data-name="eye" class="cls-3" d="M477.991,1153.05a20.394,20.394,0,0,1,14.062,25.02,20.058,20.058,0,0,1-24.674,14.26,20.4,20.4,0,0,1-14.06-25.02A20.049,20.049,0,0,1,477.991,1153.05Z" transform="translate(-190.344 -936)"/>
+  <path id="smile" class="cls-3" d="M336.771,1213.34s68.58,92.95,154.94,43.05" transform="translate(-190.344 -936)"/>
+</svg>

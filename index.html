@@ -45,11 +45,11 @@
     </header>
 
     <!-- Project Redbird Start -->
-    <div class="project-first container project project-redbird">
+    <div class="container project project-redbird">
 
         <!-- Technology - Grid Area 3 -->
         <div class="grid-3 project-area">
-            <h1>Redbird Education</h1>
+            <h1 class="project-first">Redbird Education</h1>
         </div>
 
         <!-- Story - Grid Area 4 -->
@@ -215,16 +215,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" integrity="sha256-cyEXrJKjO3YNkpCjPxVBdi7pRJ3EF+okm1oN9Qc4rRY=" crossorigin="anonymous"></script>
 
     <script>
+        var nav = document.getElementById("nav-container");
+        
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
-                document.getElementById("nav-container").style.top = "0";
+                
+                gsap.to(nav, { duration: 0.5, top:"0", ease:"power2.out" });
+                
             } else {
-                document.getElementById("nav-container").style.top = "-50px";
+                
+                 gsap.to(nav, { duration: 0.5, top:"-50px", ease:"power2.in" });
             }
             prevScrollpos = currentScrollPos;
         }
     </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" type="application/javascript"></script>
 </body></html>
